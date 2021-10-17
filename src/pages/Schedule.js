@@ -17,7 +17,8 @@ const Schedule = () => (
 				alignItems: 'center',
 				display: 'flex',
 				flexDirection: 'column',
-				paddingTop: 3
+				paddingTop: 3,
+				backgroundColor: 'background.default'
 			}}
 		>
 			<Typography color="textPrimary" gutterBottom variant="h3">
@@ -30,7 +31,9 @@ const Schedule = () => (
 		<Box
 			sx={{
 				display: 'flex',
-				justifyContent: 'flex-end'
+				justifyContent: 'flex-end',
+				alignItems: 'center',
+				paddingTop: 3
 			}}
 		>
 			<Timeline position="alternate">

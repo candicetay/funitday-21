@@ -25,7 +25,7 @@ import {
 	CheckCircle as InstructionsIcon,
 	Dribbble as GamesIcon,
 	Coffee as CoffeeIcon,
-	Command as GamesInstructionsIcon
+	List as ListIcon
 } from 'react-feather';
 import NavItem from './NavItem';
 
@@ -49,12 +49,12 @@ const items = [
 	},
 	{
 		href: '/app/instructions',
-		icon: InstructionsIcon,
-		title: 'Instructions'
+		icon: InfoIcon,
+		title: 'Instructions & FAQ'
 	},
 	{
 		href: '/app/gameplay',
-		icon: GamesInstructionsIcon,
+		icon: InstructionsIcon,
 		title: 'Game Play Rules'
 	},
 	{
@@ -68,9 +68,9 @@ const items = [
 		title: 'Bingo - Activities'
 	},
 	{
-		href: '/app/faq',
-		icon: InfoIcon,
-		title: 'FAQ'
+		href: '/app/leaderboard',
+		icon: ListIcon,
+		title: 'Leaderboard'
 	},
 	{
 		href: '/app/customers',
@@ -171,7 +171,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 					Feeling lost?
 				</Typography>
 				<Typography align="center" variant="body2">
-					Contact our FUN IT Committee!
+					Contact our FUN IT Committee or check out who is leading!
 				</Typography>
 				<Box
 					sx={{
@@ -187,6 +187,22 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 						variant="contained"
 					>
 						Telegram us!
+					</Button>
+				</Box>
+				<Box
+					sx={{
+						display: 'flex',
+						justifyContent: 'center',
+						pt: 2
+					}}
+				>
+					<Button
+						color="primary"
+						component="a"
+						href="https://keepthescore.co/board/pyxeqxrxgnr/"
+						variant="contained"
+					>
+						Leaderboard URL
 					</Button>
 				</Box>
 			</Box>
