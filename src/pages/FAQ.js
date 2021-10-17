@@ -2,12 +2,12 @@ import { styled } from '@material-ui/core/styles';
 import { Helmet } from 'react-helmet';
 import { Box, Typography } from '@material-ui/core';
 
-const Instructions = () => (
+const FAQ = () => (
 	<>
 		<Helmet>
-			<title>Instructions</title>
+			<title>FAQ</title>
 		</Helmet>
 	</>
 );
 
-export default Instructions;
+export default FAQ;

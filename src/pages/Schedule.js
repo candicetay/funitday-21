@@ -72,8 +72,7 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						5 PM (Zooom) Closing Speech and Announcing of Top
-						Winners
+						5 PM (Zoom) Closing Speech and Announcing of Top Winners
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>

@@ -16,7 +16,6 @@ import {
 	BarChart as BarChartIcon,
 	Lock as LockIcon,
 	Settings as SettingsIcon,
-	ShoppingBag as ShoppingBagIcon,
 	User as UserIcon,
 	UserPlus as UserPlusIcon,
 	Users as UsersIcon,
@@ -24,7 +23,9 @@ import {
 	Activity as ActivityIcon,
 	Info as InfoIcon,
 	CheckCircle as InstructionsIcon,
-	Dribbble as GameInstructionsIcon
+	Dribbble as GamesIcon,
+	Coffee as CoffeeIcon,
+	Command as GamesInstructionsIcon
 } from 'react-feather';
 import NavItem from './NavItem';
 
@@ -47,17 +48,27 @@ const items = [
 		title: 'Schedule'
 	},
 	{
-		href: '/app/customers',
+		href: '/app/instructions',
 		icon: InstructionsIcon,
 		title: 'Instructions'
 	},
 	{
-		href: '/app/customers',
-		icon: GameInstructionsIcon,
-		title: 'Game Play'
+		href: '/app/gameplay',
+		icon: GamesInstructionsIcon,
+		title: 'Game Play Rules'
 	},
 	{
-		href: '/app/customers',
+		href: '/app/eat',
+		icon: CoffeeIcon,
+		title: 'Bingo - Snacks'
+	},
+	{
+		href: '/app/eat',
+		icon: GamesIcon,
+		title: 'Bingo - Activities'
+	},
+	{
+		href: '/app/faq',
 		icon: InfoIcon,
 		title: 'FAQ'
 	},
@@ -65,11 +76,6 @@ const items = [
 		href: '/app/customers',
 		icon: UsersIcon,
 		title: 'Customers'
-	},
-	{
-		href: '/app/products',
-		icon: ShoppingBagIcon,
-		title: 'Products'
 	},
 	{
 		href: '/app/account',

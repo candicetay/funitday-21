@@ -2,12 +2,12 @@ import { styled } from '@material-ui/core/styles';
 import { Helmet } from 'react-helmet';
 import { Box, Typography } from '@material-ui/core';
 
-const Instructions = () => (
+const GamePlay = () => (
 	<>
 		<Helmet>
-			<title>Instructions</title>
+			<title>Game Play</title>
 		</Helmet>
 	</>
 );
 
-export default Instructions;
+export default GamePlay;

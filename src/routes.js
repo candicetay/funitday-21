@@ -11,21 +11,27 @@ import Register from './pages/Register';
 import Settings from './pages/Settings';
 import Schedule from './pages/Schedule';
 import EmailComms from './pages/EmailComms';
+import FAQ from './pages/FAQ';
+import GamePlay from './pages/GamePlay';
+import Instructions from './pages/Instructions';
 
 const routes = [
 	{
 		path: 'app',
 		element: <DashboardLayout />,
 		children: [
+			{ path: 'publicity', element: <EmailComms /> },
 			{ path: 'schedule', element: <Schedule /> },
+			{ path: 'instructions', element: <Instructions /> },
+			{ path: 'gameplay', element: <GamePlay /> },
+			{ path: 'faq', element: <FAQ /> },
 			{ path: 'account', element: <Account /> },
 			{ path: 'customers', element: <CustomerList /> },
 			{ path: 'dashboard', element: <Dashboard /> },
 			{ path: 'dashboard layout', element: <DashboardLayout /> },
-			{ path: 'products', element: <ProductList /> },
+			{ path: 'eat', element: <ProductList /> },
 			{ path: 'settings', element: <Settings /> },
-			{ path: '*', element: <Navigate to="/404" /> },
-			{ path: 'publicity', element: <EmailComms /> }
+			{ path: '*', element: <Navigate to="/404" /> }
 		]
 	},
 	{
