@@ -4,7 +4,7 @@ import ProductListToolbar from '../components/product/ProductListToolbar';
 import ProductCard from '../components/product/ProductCard';
 import food from '../activities/food';
 
-const ProductList = () => (
+const FoodList = () => (
 	<>
 		<Helmet>
 			<title>Bingo Snack List</title>
@@ -47,4 +47,4 @@ const ProductList = () => (
 	</>
 );
 
-export default ProductList;
+export default FoodList;
