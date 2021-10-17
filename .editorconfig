@@ -1,0 +1,15 @@
+root = true
+TSC_COMPILE_ON_ERROR = true
+DISABLE_ESLINT_PLUGIN = true
+
+[*.js]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style = tab
