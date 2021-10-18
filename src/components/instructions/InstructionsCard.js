@@ -5,7 +5,8 @@ import {
 	CardContent,
 	Divider,
 	Grid,
-	Typography
+	Typography,
+	Avatar
 } from '@material-ui/core';
 import styled, { ThemeProvider } from 'styled-components';
 import { StylesProvider, useTheme } from '@material-ui/core/styles';
@@ -30,6 +31,20 @@ function InstructionsCard({ instructionsCategory, ...rest }) {
 			{...rest}
 		>
 			<CardContent>
+				<Box
+					sx={{
+						display: 'flex',
+						justifyContent: 'center',
+						pb: 3
+					}}
+				>
+					<Avatar
+						alt="Instructions"
+						src={instructionsCategory.media}
+						variant="square"
+						className={classes.sizeAvatar}
+					/>
+				</Box>
 				<Typography
 					align="center"
 					color="textPrimary"

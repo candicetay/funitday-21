@@ -53,11 +53,6 @@ const items = [
 		title: 'Instructions & FAQ'
 	},
 	{
-		href: '/app/gameplay',
-		icon: InstructionsIcon,
-		title: 'Game Play Rules'
-	},
-	{
 		href: '/app/eat',
 		icon: CoffeeIcon,
 		title: 'Bingo - Snacks'
