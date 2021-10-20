@@ -58,7 +58,7 @@ const items = [
 		title: 'Bingo - Snacks'
 	},
 	{
-		href: '/app/eat',
+		href: '/app/gameplay',
 		icon: GamesIcon,
 		title: 'Bingo - Activities'
 	},
@@ -221,7 +221,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 					{content}
 				</Drawer>
 			</Hidden>
-			<Hidden xlDown>
+			<Hidden lgDown>
 				<Drawer
 					anchor="left"
 					open

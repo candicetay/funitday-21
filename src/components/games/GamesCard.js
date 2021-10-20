@@ -1,25 +1,26 @@
 import PropTypes from 'prop-types';
 import {
+	Avatar,
 	Box,
 	Card,
 	CardContent,
 	Divider,
 	Grid,
-	Typography,
-	Avatar
+	Typography
 } from '@material-ui/core';
+import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 import styled, { ThemeProvider } from 'styled-components';
 import { StylesProvider, useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
 	sizeAvatar: {
-		height: theme.spacing(25),
-		width: theme.spacing(25)
+		height: theme.spacing(35),
+		width: theme.spacing(35)
 	}
 }));
 
-function InstructionsCard({ instructionsCategory, ...rest }) {
+function GamesCard({ game, ...rest }) {
 	const classes = useStyles();
 	return (
 		<Card
@@ -39,8 +40,8 @@ function InstructionsCard({ instructionsCategory, ...rest }) {
 					}}
 				>
 					<Avatar
-						alt="Instructions"
-						src={instructionsCategory.media}
+						alt="Game"
+						src={game.media}
 						variant="square"
 						className={classes.sizeAvatar}
 					/>
@@ -49,21 +50,47 @@ function InstructionsCard({ instructionsCategory, ...rest }) {
 					align="center"
 					color="textPrimary"
 					gutterBottom
-					variant="h3"
+					variant="h4"
 				>
-					{instructionsCategory.title}
+					{game.title}
 				</Typography>
 				<Typography align="center" color="textPrimary" variant="body1">
-					{instructionsCategory.description}
+					{game.description}
 				</Typography>
 			</CardContent>
 			<Box sx={{ flexGrow: 1 }} />
+			<Divider />
+			<Box sx={{ p: 2 }}>
+				<Grid
+					container
+					spacing={2}
+					sx={{ justifyContent: 'space-between' }}
+				>
+					<Grid
+						item
+						sx={{
+							alignItems: 'center',
+							display: 'flex'
+						}}
+					>
+						<CalculateOutlinedIcon color="action" />
+						<Typography
+							color="textSecondary"
+							display="inline"
+							sx={{ pl: 1 }}
+							variant="body2"
+						>
+							{game.totalDownloads} Points
+						</Typography>
+					</Grid>
+				</Grid>
+			</Box>
 		</Card>
 	);
 }
 
-InstructionsCard.propTypes = {
-	instructionsCategory: PropTypes.object.isRequired
+GamesCard.propTypes = {
+	game: PropTypes.object.isRequired
 };
 
-export default InstructionsCard;
+export default GamesCard;

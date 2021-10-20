@@ -1,8 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Box, Container, Grid, Typography } from '@material-ui/core';
-import ProductListToolbar from '../components/product/ProductListToolbar';
 import ProductCard from '../components/product/ProductCard';
-import food from '../activities/food';
+import food from '../instructions/food';
 
 const FoodList = () => (
 	<>

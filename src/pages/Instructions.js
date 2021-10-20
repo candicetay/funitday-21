@@ -24,7 +24,7 @@ const Instructions = () => (
 					Welcome to FUN IT Day 2021!
 				</Typography>
 				<Typography color="textSecondary" variant="body1">
-					Some context to get oriented...
+					Key details and FAQ to get your team oriented!
 				</Typography>
 			</Box>
 			<Box sx={{ pt: 3 }}>
