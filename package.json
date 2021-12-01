@@ -39,7 +39,7 @@
 		"@mui/lab": "^5.0.0-alpha.51",
 		"@mui/material": "^5.0.4",
 		"@quarkly/theme": "^0.1.3",
-		"chart.js": "^3.5.1",
+		"chart.js": "^3.6.1",
 		"eslint-config-airbnb": "^18.2.1",
 		"formik": "^2.1.5",
 		"history": "^5.0.0",
