@@ -31,6 +31,7 @@
 		"no-tabs": "off",
 		"object-curly-newline": "off",
 		"react/jsx-wrap-multilines": "off",
-		"react/jsx-one-expression-per-line": "off"
+		"react/jsx-one-expression-per-line": "off",
+		"no-mixed-spaces-and-tabs": "off"
 	}
 }

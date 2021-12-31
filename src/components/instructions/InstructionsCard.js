@@ -3,13 +3,9 @@ import {
 	Box,
 	Card,
 	CardContent,
-	Divider,
-	Grid,
 	Typography,
 	Avatar
 } from '@material-ui/core';
-import styled, { ThemeProvider } from 'styled-components';
-import { StylesProvider, useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({

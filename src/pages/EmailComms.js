@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Typography, Divider } from '@material-ui/core';
 import { styled } from '@material-ui/core/styles';
 import { Helmet } from 'react-helmet';
+import Image from 'material-ui-image';
 
 const DashboardLayoutContainer = styled('div')({
 	display: 'flex',
@@ -29,7 +30,7 @@ const FeedLayoutContent = styled('div')({
 	width: 'auto',
 	height: 'auto',
 	paddingTop: 30,
-	maxWidth: '100%'
+	maxWidth: '100%',
 });
 
 const EmailComms = () => (
@@ -57,21 +58,24 @@ const EmailComms = () => (
 				<Divider />
 				<DashboardLayoutContent>
 					<FeedLayoutContent>
-						<img
+						<Image
 							src="/static/images/publicity/Publicity - Eyes 04.png"
 							alt="FUN IT Day Email Comms!"
+							aspectRatio="0.71"
 						/>
 					</FeedLayoutContent>
 					<FeedLayoutContent>
-						<img
+						<Image
 							src="/static/images/publicity/Publicity - Gardens By The Bay.png"
 							alt="FUN IT Day Email Comms!"
+							aspectRatio="0.71"
 						/>
 					</FeedLayoutContent>
 					<FeedLayoutContent>
-						<img
+						<Image
 							src="/static/images/publicity/Email - Initial Comms.png"
 							alt="FUN IT Day Email Comms!"
+							aspectRatio="0.19"
 						/>
 					</FeedLayoutContent>
 				</DashboardLayoutContent>

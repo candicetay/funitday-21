@@ -66,36 +66,6 @@ const items = [
 		href: '/app/leaderboard',
 		icon: ListIcon,
 		title: 'Leaderboard'
-	},
-	{
-		href: '/app/customers',
-		icon: UsersIcon,
-		title: 'Customers'
-	},
-	{
-		href: '/app/account',
-		icon: UserIcon,
-		title: 'Account'
-	},
-	{
-		href: '/app/dashboard',
-		icon: BarChartIcon,
-		title: 'Dashboard'
-	},
-	{
-		href: '/app/settings',
-		icon: SettingsIcon,
-		title: 'Settings'
-	},
-	{
-		href: '/login',
-		icon: LockIcon,
-		title: 'Login'
-	},
-	{
-		href: '/register',
-		icon: UserPlusIcon,
-		title: 'Register'
 	}
 ];
 
@@ -142,7 +112,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 				</Typography>
 			</Box>
 			<Divider />
-			<Box sx={{ p: 2 }}>
+			<Box sx={{ p: 2, display: 'flex' }}>
 				<List>
 					{items.map((item) => (
 						<NavItem
@@ -165,9 +135,6 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 				<Typography align="center" gutterBottom variant="h4">
 					Feeling lost?
 				</Typography>
-				<Typography align="center" variant="body2">
-					Contact our FUN IT Committee or check out who is leading!
-				</Typography>
 				<Box
 					sx={{
 						display: 'flex',
@@ -178,7 +145,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 					<Button
 						color="primary"
 						component="a"
-						href="https://t.me/kandice_t"
+						href="https://t.me/kandice_kenot"
 						variant="contained"
 					>
 						Telegram us!

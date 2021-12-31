@@ -9,12 +9,14 @@ const App = () => {
   const content = useRoutes(routes);
 
   return (
+    <>
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         {content}
       </ThemeProvider>
     </StyledEngineProvider>
+    </>
   );
 };
 

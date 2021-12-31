@@ -8,11 +8,8 @@ import {
 	Grid,
 	Typography
 } from '@material-ui/core';
-import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import Restaurant from '@mui/icons-material/Restaurant';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
-import styled, { ThemeProvider } from 'styled-components';
-import { StylesProvider, useTheme } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -100,31 +97,6 @@ function ProductCard({ product, ...rest }) {
 							variant="body2"
 						>
 							{product.totalDownloads} Eateries found
-						</Typography>
-					</Grid>
-				</Grid>
-			</Box>
-			<Box sx={{ p: 2 }}>
-				<Grid
-					container
-					spacing={2}
-					sx={{ justifyContent: 'space-between' }}
-				>
-					<Grid
-						item
-						sx={{
-							alignItems: 'center',
-							display: 'flex'
-						}}
-					>
-						<AccessTimeIcon color="action" />
-						<Typography
-							color="textSecondary"
-							display="inline"
-							sx={{ pl: 1 }}
-							variant="body2"
-						>
-							Updated 2hr ago
 						</Typography>
 					</Grid>
 				</Grid>

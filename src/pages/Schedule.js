@@ -25,7 +25,7 @@ const Schedule = () => (
 				Schedule for FUN IT Day 2021!
 			</Typography>
 			<Typography color="textSecondary" variant="body1">
-				12 November
+				14 January 2022
 			</Typography>
 		</Box>
 		<Box

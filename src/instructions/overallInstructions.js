@@ -5,15 +5,15 @@ export default [
 		id: uuid(),
 		createdAt: '27/03/2019',
 		description:
-			"FUN IT Day is a IT tradition to bond and create memorable memories. This run is a little different as it is physical but still constained by Covid's SMM. We are unable to travel but the spirit of travelling and exploration can take place anywhere :) Regardless of your team's playing style, we hope you have lots of fun :D",
-		title: 'What is this all about?',
+			"FUN IT Day is a IT tradition to bond, it's been a long wait but it's finally here! We are unable to travel but the spirit of travelling and exploration can take place anywhere :)",
+		title: 'What is IT Fun Day?',
 		media: '/static/images/gameplay/funitday2020.jpg'
 	},
 	{
 		id: uuid(),
 		createdAt: '31/03/2019',
 		description:
-			'The format follows a scavenger-bingo style - complete (cross out) as many tiles on the board! For some activities (denoted with the *), the best submission (creativity / hight score) would receive bonus prizes to be awarded after the event, no additional points would be awarded. We also have a live leaderboard this year to easily find out who is leading!',
+			'The game format follows a scavenger-bingo style - complete as many tiles on the board! For activities denoted with an *, the best submission wins a bonus prize to be awarded after the event. This year, we also have a live leaderboard to check out who is leading!',
 		title: 'What is the game format?',
 		media: '/static/images/gameplay/bingo.png'
 	},
@@ -21,7 +21,7 @@ export default [
 		id: uuid(),
 		createdAt: '27/03/2019',
 		description:
-			'The points for each bingo tile in the bracket e.g. (x) means x points will be awarded for completion (when verified by the committee). For each team strike of any every row or column, receive +50 points. There is no limit to how many rows, columns or tiles you are allowed to complete.',
+			'The points for each bingo tile in the bracket e.g. (x) means x points will be awarded for verified completion. For each team strike of any row or column, receive +50 points. There is no limit to how many rows, columns or tiles you are allowed to complete.',
 		title: 'Point System - How to Ace IT',
 		media: '/static/images/gameplay/leaderboard.png'
 	},
@@ -29,7 +29,7 @@ export default [
 		id: uuid(),
 		createdAt: '03/04/2019',
 		description:
-			'Submit video or pictorial evidence for each bingo tile via the telegram chat with our committee members! Refer to the specific instructions for each activity. If the committe missed out any tabulation from the leaderboard, feel free to contact us. Do note, we will take some time to verify submissions.',
+			'Submit video or pictorial evidence for each bingo tile via the telegram chat with our committee members! Refer to the specific instructions for each activity. If we missed out any tabulation from the leaderboard, feel free to contact us. Do note, we will take some time to verify submissions!',
 		title: 'Proof of Completion and Verification',
 		media: '/static/images/gameplay/selfie-pose.jpg'
 	},
@@ -37,7 +37,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'To ease the process of claims, please visit places which provide receipts. In the event receipts are not available, your team needs to write and assign a statement stating the details of your purchases so that it can be cleared with Finance.',
+			'To ease the process, please visit places which provide receipts. If receipts are not available, your team needs to write and assign a statement stating the details of your purchases so that it can be cleared with Finance.',
 		title: 'Claims',
 		media: '/static/images/gameplay/receipts.jpg'
 	},
@@ -45,7 +45,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Public transport or private transport? It is your call. However, please stay in your zone and do not meet up physically with other groups - SMM. The ezlink card is a memento and for groups to pay for transport or as a cash card. The activities are designed to be generally location agnostic so location should not be such a huge issue.',
+			'Public transport or private transport? It is your call. However, please stay in your zone and do not meet up physically with other groups - SMM. The activities are designed to be generally location agnostic so location should not be a huge issue.',
 		title: 'Getting around',
 		media: '/static/images/gameplay/ezlink.jpg'
 	},

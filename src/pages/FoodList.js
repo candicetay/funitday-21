@@ -22,8 +22,7 @@ const FoodList = () => (
 					Yum - Snack Time!
 				</Typography>
 				<Typography color="textSecondary" variant="body1">
-					Celebrate and keep Singapore&apos;s culinary heritage alive
-					by feeding your team with these local treats!
+					Celebrate Singapore&apos;s culinary heritage by feeding your team with these treats!
 				</Typography>
 			</Box>
 			<Box sx={{ pt: 3 }}>

@@ -9,8 +9,7 @@ import {
 	Typography
 } from '@material-ui/core';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
-import styled, { ThemeProvider } from 'styled-components';
-import { StylesProvider, useTheme } from '@material-ui/core/styles';
+import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -81,6 +80,23 @@ function GamesCard({ game, ...rest }) {
 							variant="body2"
 						>
 							{game.totalDownloads} Points
+						</Typography>
+					</Grid>
+					<Grid
+						item
+						sx={{
+							alignItems: 'center',
+							display: 'flex'
+						}}
+					>
+						<MapOutlinedIcon color="action" />
+						<Typography
+							color="textSecondary"
+							display="inline"
+							sx={{ pl: 1 }}
+							variant="body2"
+						>
+							{game.zone} Zone
 						</Typography>
 					</Grid>
 				</Grid>

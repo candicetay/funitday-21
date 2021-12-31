@@ -53,15 +53,24 @@ export default [
 			'Satay, or sate in Indonesian and Malay spelling, is a Southeast Asian dish of seasoned, skewered and grilled meat, served with a sauce.',
 		media: '/static/images/food/satay640x640.jpg',
 		title: 'Satay',
-		totalDownloads: '1'
+		totalDownloads: '30'
 	},
 	{
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Popiah is a Fujianese / Teochew-style fresh spring roll. It is eaten in accompaniment with a sweet sauce (often a bean sauce), a blended soy sauce or hoisin sauce or a shrimp paste sauce. The filling is mainly finely grated and steamed or stir-fried turnip with a combination of other ingredients.',
+			'Popiah is a Fujianese / Teochew-style fresh spring roll. It is eaten in accompaniment with a sauce. The filling is mainly finely grated turnip with a combination of other ingredients.',
 		media: '/static/images/food/popiah518x518.jpg',
 		title: 'Popiah',
-		totalDownloads: '1'
+		totalDownloads: '15'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Submit pictorial evidence of anyone in the team eating Potong Ice Cream or hunt for the ice-cream man uncle for an additional 5 points!',
+		media: '/static/images/food/icecream.png',
+		title: 'Heritage Ice Cream',
+		totalDownloads: '5'
 	}
 ];

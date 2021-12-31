@@ -8,9 +8,14 @@ import {
 	SvgIcon
 } from '@material-ui/core';
 import { Search as SearchIcon } from 'react-feather';
+import { useState } from 'react';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 import Toggle from './toggle';
 
-const GamesToolbar = (props) => (
+export const GamesToolbar = (props) => (
 	<Box {...props}>
 		<Box
 			sx={{
@@ -19,38 +24,41 @@ const GamesToolbar = (props) => (
 				paddingTop: 3
 			}}
 		>
-			<Button sx={{ mx: 1 }}>Rest</Button>
-			<Button color="primary" variant="contained">
-				Zone Specific
-			</Button>
 			<Toggle />
-		</Box>
-		<Box sx={{ mt: 3 }}>
-			<Card>
-				<CardContent>
-					<Box sx={{ maxWidth: 500 }}>
-						<TextField
-							fullWidth
-							InputProps={{
-								startAdornment: (
-									<InputAdornment position="start">
-										<SvgIcon
-											fontSize="small"
-											color="action"
-										>
-											<SearchIcon />
-										</SvgIcon>
-									</InputAdornment>
-								)
-							}}
-							placeholder="Search product"
-							variant="outlined"
-						/>
-					</Box>
-				</CardContent>
-			</Card>
 		</Box>
 	</Box>
 );
 
-export default GamesToolbar;
+export function BasicSelect() {
+	const [zone, setZone] = useState('Generic');
+	const handleChange = (event) => {
+	  setZone(event.target.value);
+	  console.log(event.target.value);
+	};
+	return (
+	  <Box
+	  	sx={{
+			display: 'flex',
+			justifyContent: 'flex-end',
+			paddingTop: 3
+	}}>
+		<FormControl fullWidth>
+		  <InputLabel id="demo-simple-select-label">Zone for Activities</InputLabel>
+		  <Select
+			labelId="demo-simple-select-label"
+			id="demo-simple-select"
+			value={zone}
+			label="Zone"
+			onChange={handleChange}
+		  >
+			<MenuItem value="Generic">Generic Zone</MenuItem>
+			<MenuItem value="West">West Zone</MenuItem>
+			<MenuItem value="North">North Zone</MenuItem>
+			<MenuItem value="Central">Central Zone</MenuItem>
+			<MenuItem value="East">East Zone</MenuItem>
+			<MenuItem value="North-East">North-East Zone</MenuItem>
+		  </Select>
+		</FormControl>
+	  </Box>
+	);
+  }

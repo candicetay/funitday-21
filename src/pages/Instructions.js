@@ -1,4 +1,3 @@
-import { styled } from '@material-ui/core/styles';
 import { Helmet } from 'react-helmet';
 import { Box, Container, Grid, Typography } from '@material-ui/core';
 import InstructionsCard from '../components/instructions/InstructionsCard';
@@ -21,7 +20,7 @@ const Instructions = () => (
 				}}
 			>
 				<Typography color="textPrimary" gutterBottom variant="h3">
-					Welcome to FUN IT Day 2021!
+					Welcome to FUN IT Day 2022!
 				</Typography>
 				<Typography color="textSecondary" variant="body1">
 					Key details and FAQ to get your team oriented!
@@ -44,6 +43,16 @@ const Instructions = () => (
 					))}
 				</Grid>
 			</Box>
+			{/* <Box
+				sx={{
+					alignItems: 'center',
+					display: 'flex',
+					flexDirection: 'column',
+					paddingTop: 3,
+					backgroundColor: 'background.default'
+				}}
+			>
+			</Box> */}
 		</Container>
 	</>
 );
