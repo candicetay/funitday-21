@@ -135,7 +135,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 				<Typography align="center" gutterBottom variant="h4">
 					Feeling lost?
 				</Typography>
-				<Box
+				{/* <Box
 					sx={{
 						display: 'flex',
 						justifyContent: 'center',
@@ -150,7 +150,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 					>
 						Telegram us!
 					</Button>
-				</Box>
+				</Box> */}
 				<Box
 					sx={{
 						display: 'flex',
