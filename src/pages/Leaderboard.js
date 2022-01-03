@@ -6,7 +6,7 @@ import React, { useRef, useState } from 'react';
 const Leaderboard = () => (
 	<>
 		<Helmet>
-			<title>FAQ</title>
+			<title>Leaderboard</title>
 		</Helmet>
 		<Container maxWidth={false}>
 			<Box
