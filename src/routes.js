@@ -8,7 +8,7 @@ import EmailComms from './pages/EmailComms';
 import GamePlay from './pages/GamePlay';
 import Instructions from './pages/Instructions';
 import Leaderboard from './pages/Leaderboard';
-import LoadTest from './pages/LoadTest';
+import { LoadTest } from './pages/LoadTest';
 
 const routes = [
 	{
