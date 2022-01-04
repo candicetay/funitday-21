@@ -4,7 +4,6 @@
   "licence": "MIT",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/candicetay/funitday-21",
   "scripts": {
     "eslint": "eslint ./src",
     "eslint-fix": "eslint --fix ./src",
