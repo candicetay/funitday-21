@@ -37,12 +37,6 @@ const user = {
 
 const items = [
 	{
-		href: '/app/publicity',
-		icon: ActivityIcon,
-		title: 'Comms'
-	},
-
-	{
 		href: '/app/schedule',
 		icon: ScheduleIcon,
 		title: 'Schedule'
@@ -66,6 +60,11 @@ const items = [
 		href: '/app/leaderboard',
 		icon: ListIcon,
 		title: 'Leaderboard'
+	},
+	{
+		href: '/app/publicity',
+		icon: ActivityIcon,
+		title: 'Comms'
 	}
 ];
 

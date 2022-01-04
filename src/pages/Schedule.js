@@ -66,7 +66,7 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						4.45 PM Deadline for Group Submissions
+						3.45 PM Deadline for Group Submissions
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
@@ -75,14 +75,15 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						5 PM (Zoom) Closing Speech and Announcing of Top Winners
+						4.15 PM (Zoom) Closing Speech and Announcing of Top
+						Winners
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot color="success" />
 					</TimelineSeparator>
-					<TimelineContent> 5.30 PM Event Concludes</TimelineContent>
+					<TimelineContent> 5 PM Event Concludes</TimelineContent>
 				</TimelineItem>
 			</Timeline>
 		</Box>

@@ -154,8 +154,7 @@ export default [
 	{
 		id: uuid(),
 		createdAt: '04/04/2019',
-		description:
-			"Submit video evidence of your team's experiment!",
+		description: "Submit video evidence of your team's experiment!",
 		media: '/static/images/gameplay/experiment.gif',
 		title: 'Conduct any Science Experiment',
 		totalDownloads: '5',
@@ -205,9 +204,9 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Support our local farmers by visiting any farm in the North - e.g. Jurong Frog Farm! Did you know that in 1970, about 175,400 people (9% of the total population) were directly or indirectly dependent on farming and fishing for a living?',
-		media: '/static/images/gameplay/north_farm.jpg',
-		title: 'Farm Visit',
+			"Take a group picture at Singapore's 24/7 hidden adventure park. You can go fishing, prawning or have fun at a trampoline park. ORTO is also known for its 80 cents boat noodles and Thai food offerings.",
+		media: '/static/images/gameplay/north_ORTO.jpg',
+		title: 'ORTO',
 		totalDownloads: '15',
 		zone: 'North'
 	},
@@ -250,5 +249,5 @@ export default [
 		title: 'Punggol East Container Park',
 		totalDownloads: '15',
 		zone: 'North-East'
-	},
+	}
 ];

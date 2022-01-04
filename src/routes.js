@@ -15,12 +15,12 @@ const routes = [
 		path: 'app',
 		element: <DashboardLayout />,
 		children: [
-			{ path: 'publicity', element: <EmailComms /> },
 			{ path: 'schedule', element: <Schedule /> },
 			{ path: 'instructions', element: <Instructions /> },
 			{ path: 'gameplay', element: <GamePlay /> },
 			{ path: 'eat', element: <FoodList /> },
 			{ path: 'leaderboard', element: <Leaderboard /> },
+			{ path: 'publicity', element: <EmailComms /> },
 			{ path: '*', element: <Navigate to="/404" /> }
 		]
 	},
@@ -29,7 +29,7 @@ const routes = [
 		element: <MainLayout />,
 		children: [
 			{ path: '404', element: <NotFound /> },
-			{ path: '/', element: <Navigate to="/app/publicity" /> },
+			{ path: '/', element: <Navigate to="/app/instructions" /> },
 			{ path: '*', element: <Navigate to="/404" /> },
 			{
 				path: 'loaderio-c2e1279bdca0ab383176b6d531742737',

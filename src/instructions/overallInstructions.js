@@ -3,14 +3,6 @@ import { v4 as uuid } from 'uuid';
 export default [
 	{
 		id: uuid(),
-		createdAt: '27/03/2019',
-		description:
-			"FUN IT Day is a IT tradition to bond, it's been a long wait but it's finally here! We are unable to travel but the spirit of travelling and exploration can take place anywhere :)",
-		title: 'What is IT Fun Day?',
-		media: '/static/images/gameplay/funitday2020.jpg'
-	},
-	{
-		id: uuid(),
 		createdAt: '31/03/2019',
 		description:
 			'The game format follows a scavenger-bingo style - complete as many tiles on the board! For activities denoted with an *, the best submission wins a bonus prize to be awarded after the event. This year, we also have a live leaderboard to check out who is leading!',
@@ -72,5 +64,13 @@ export default [
 			'Fret not, just contact the committee members via Telegram ;) We are here for you.',
 		title: 'What if we are lost or unsure?',
 		media: '/static/images/gameplay/telegram-logo.png'
+	},
+	{
+		id: uuid(),
+		createdAt: '27/03/2019',
+		description:
+			"FUN IT Day is a IT tradition to bond, it's been a long wait but it's finally here! We are unable to travel but the spirit of travelling and exploration can take place anywhere :)",
+		title: 'What is IT Fun Day?',
+		media: '/static/images/gameplay/funitday2020.jpg'
 	}
 ];
