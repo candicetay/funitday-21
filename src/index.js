@@ -4,11 +4,9 @@ import App from './App';
 import ScrollTopArrow from './components/ScrollTopArrow';
 
 ReactDOM.render(
-  (
-      <BrowserRouter>
-        <App />
-        {/* <ScrollTopArrow /> */}
-      </BrowserRouter>
-  ),
-  document.getElementById('root')
+	<BrowserRouter>
+		<App />
+		{/* <ScrollTopArrow /> */}
+	</BrowserRouter>,
+	document.getElementById('root')
 );

@@ -1,11 +1,5 @@
 import PropTypes from 'prop-types';
-import {
-	Box,
-	Card,
-	CardContent,
-	Typography,
-	Avatar
-} from '@material-ui/core';
+import { Box, Card, CardContent, Typography, Avatar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({

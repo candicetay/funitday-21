@@ -30,7 +30,7 @@ const FeedLayoutContent = styled('div')({
 	width: 'auto',
 	height: 'auto',
 	paddingTop: 30,
-	maxWidth: '100%',
+	maxWidth: '100%'
 });
 
 const EmailComms = () => (

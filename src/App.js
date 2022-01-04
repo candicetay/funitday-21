@@ -6,18 +6,18 @@ import theme from './theme';
 import routes from './routes';
 
 const App = () => {
-  const content = useRoutes(routes);
+	const content = useRoutes(routes);
 
-  return (
-    <>
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        {content}
-      </ThemeProvider>
-    </StyledEngineProvider>
-    </>
-  );
+	return (
+		<>
+			<StyledEngineProvider injectFirst>
+				<ThemeProvider theme={theme}>
+					<GlobalStyles />
+					{content}
+				</ThemeProvider>
+			</StyledEngineProvider>
+		</>
+	);
 };
 
 export default App;

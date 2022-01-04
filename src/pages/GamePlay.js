@@ -14,65 +14,75 @@ function GamePlay() {
 		setZone(event.target.value);
 		// console.log(event.target.value);
 		return zone;
-	  };
+	};
 	return (
 		<>
-		<Helmet>
-			<title>Game Play</title>
-		</Helmet>
-		<Container maxWidth={false}>
-			<Box
-				sx={{
-					alignItems: 'center',
-					display: 'flex',
-					flexDirection: 'column',
-					paddingTop: 3,
-					backgroundColor: 'background.default'
-				}}
-			>
-				<Typography color="textPrimary" gutterBottom variant="h3">
-					All about Activities!
-				</Typography>
-				<Typography color="textSecondary" variant="body1">
-					Activities are split into Generic (all
-					zones) and Zone Specific
-				</Typography>
+			<Helmet>
+				<title>Game Play</title>
+			</Helmet>
+			<Container maxWidth={false}>
 				<Box
 					sx={{
+						alignItems: 'center',
 						display: 'flex',
-						justifyContent: 'flex-end',
-						paddingTop: 3
+						flexDirection: 'column',
+						paddingTop: 3,
+						backgroundColor: 'background.default'
 					}}
 				>
-					<FormControl fullWidth>
-					<InputLabel id="demo-simple-select-label">Zone for Activities</InputLabel>
-					<Select
-						labelId="demo-simple-select-label"
-						id="demo-simple-select"
-						value={zone}
-						label="Zone"
-						onChange={handleChange}
+					<Typography color="textPrimary" gutterBottom variant="h3">
+						All about Activities!
+					</Typography>
+					<Typography color="textSecondary" variant="body1">
+						Activities are split into Generic (all zones) and Zone
+						Specific
+					</Typography>
+					<Box
+						sx={{
+							display: 'flex',
+							justifyContent: 'flex-end',
+							paddingTop: 3
+						}}
 					>
-						<MenuItem value="Generic">Generic Zone</MenuItem>
-						<MenuItem value="West">West Zone</MenuItem>
-						<MenuItem value="North">North Zone</MenuItem>
-						<MenuItem value="Central">Central Zone</MenuItem>
-						<MenuItem value="East">East Zone</MenuItem>
-						<MenuItem value="North-East">North-East Zone</MenuItem>
-					</Select>
-					</FormControl>
+						<FormControl fullWidth>
+							<InputLabel id="demo-simple-select-label">
+								Zone for Activities
+							</InputLabel>
+							<Select
+								labelId="demo-simple-select-label"
+								id="demo-simple-select"
+								value={zone}
+								label="Zone"
+								onChange={handleChange}
+							>
+								<MenuItem value="Generic">
+									Generic Zone
+								</MenuItem>
+								<MenuItem value="West">West Zone</MenuItem>
+								<MenuItem value="North">North Zone</MenuItem>
+								<MenuItem value="Central">
+									Central Zone
+								</MenuItem>
+								<MenuItem value="East">East Zone</MenuItem>
+								<MenuItem value="North-East">
+									North-East Zone
+								</MenuItem>
+							</Select>
+						</FormControl>
+					</Box>
 				</Box>
-			</Box>
-			<Box sx={{ pt: 3 }}>
-				<Grid container spacing={3}>
-					{overallGames.filter((game) => game.zone === zone).map((game) => (
-						<Grid item key={game.id} lg={4} md={6} xs={12}>
-							<GamesCard game={game} />
-						</Grid>
-					))}
-				</Grid>
-			</Box>
-		</Container>
+				<Box sx={{ pt: 3 }}>
+					<Grid container spacing={3}>
+						{overallGames
+							.filter((game) => game.zone === zone)
+							.map((game) => (
+								<Grid item key={game.id} lg={4} md={6} xs={12}>
+									<GamesCard game={game} />
+								</Grid>
+							))}
+					</Grid>
+				</Box>
+			</Container>
 		</>
 	);
 }
