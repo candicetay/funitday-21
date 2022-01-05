@@ -20,7 +20,7 @@ const Instructions = () => (
 				}}
 			>
 				<Typography color="textPrimary" gutterBottom variant="h3">
-					Welcome to FUN IT Day 2022!
+					Welcome to FUN IT Day 2021!
 				</Typography>
 				<Typography color="textSecondary" variant="body1">
 					Key details and FAQ to get your team oriented!
