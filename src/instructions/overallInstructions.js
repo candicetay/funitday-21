@@ -13,7 +13,7 @@ export default [
 		id: uuid(),
 		createdAt: '27/03/2019',
 		description:
-			'The points for each bingo tile in the bracket e.g. (x) means x points will be awarded for verified completion. For each team strike of any row or column, receive +50 points. There is no limit to how many rows, columns or tiles you are allowed to complete.',
+			'The points for each bingo tile in the bracket e.g. (x) means x points will be awarded for verified completion. For each team strike of any row or column, receive +50 points. There is no limit to how many rows, columns or tiles you are allowed to complete. If the leaderboard tabulation has errors, feel free to contact us.',
 		title: 'Point System - How to Ace IT',
 		media: '/static/images/gameplay/leaderboard.png'
 	},
@@ -21,7 +21,7 @@ export default [
 		id: uuid(),
 		createdAt: '03/04/2019',
 		description:
-			'Submit video or pictorial evidence for each bingo tile via the telegram chat with our committee members! Refer to the specific instructions for each activity. If we missed out any tabulation from the leaderboard, feel free to contact us. Do note, we will take some time to verify submissions!',
+			"(1) Submit video or pictorial evidence for food and activities via the telegram chat with our committee members! Refer to the specific instructions for each activity. (2) Cross out completed tiles on your team's bingo sheet so the committee can award bonus points for completed rows and columns! Do note, we will take some time to verify submissions!",
 		title: 'Proof of Completion and Verification',
 		media: '/static/images/gameplay/selfie-pose.jpg'
 	},
