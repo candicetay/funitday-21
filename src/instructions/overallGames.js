@@ -65,7 +65,7 @@ export default [
 		id: uuid(),
 		createdAt: '27/03/2019',
 		description:
-			'Take a team picture with any animal of your choice! The most uncommon animal or pose would receive a bonus prize. (Birds count too!)',
+			'Take a team picture with any LIVE animal of your choice! The most uncommon animal or pose would receive a bonus prize. (Birds count too!)',
 		media: '/static/images/gameplay/partyanimals.jpg',
 		title: 'Party Animals *',
 		totalDownloads: '15',
