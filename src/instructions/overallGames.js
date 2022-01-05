@@ -214,7 +214,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Treat yourself to the beautiful view at Lower Seletar Reservoir!',
+			'Take a group picture here! Treat yourselves to the beautiful view at Lower Seletar Reservoir!',
 		media: '/static/images/gameplay/north_heritagebridge.jpg',
 		title: 'Heritage Bridge @ Lower Seletar Reservoir',
 		totalDownloads: '15',
