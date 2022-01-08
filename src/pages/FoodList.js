@@ -23,7 +23,7 @@ const FoodList = () => (
 				</Typography>
 				<Typography color="textSecondary" variant="body1">
 					Celebrate Singapore&apos;s culinary heritage by feeding your
-					team with these treats!
+					team with these treats! Remember to take a team picture (team pax -1) with the treats!
 				</Typography>
 			</Box>
 			<Box sx={{ pt: 3 }}>
