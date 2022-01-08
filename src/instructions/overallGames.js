@@ -35,30 +35,30 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Film a team video review (vlog / tiktok) of an iconic landmark or activity unique to your zone! Stuck? Fret not, unique HDB blocks count too! Best submissions win a bonus prize.',
-		media: '/static/images/gameplay/tripadvisor_review.png',
-		title: 'Zone Travel Review * [Video]',
-		totalDownloads: '15',
+			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 330ml can (or larger) of beer empty in 15 seconds. The video must show the member opening the can and that it is empty after chugging.",
+		media: '/static/images/gameplay/beer-chug.gif',
+		title: 'Oktoberfest [Video]',
+		totalDownloads: '5',
 		zone: 'Generic'
 	},
 	{
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it!',
-		media: '/static/images/gameplay/postcard.jpg',
-		title: 'Traveling mementos: Postcards [Photo]',
+			'Catch no ball? How about catching food? Take a video of EACH team member catching Ice Gem or any Fruits with their mouth!',
+		media: '/static/images/gameplay/crop-food-catch.gif',
+		title: 'Catch it with your mouth [Video]',
 		totalDownloads: '5',
 		zone: 'Generic'
 	},
 	{
 		id: uuid(),
-		createdAt: '31/03/2019',
+		createdAt: '04/04/2019',
 		description:
-			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance. The most entertaining team gets a bonus prize.',
-		media: '/static/images/gameplay/tiktok-dance.jpg',
-		title: 'Tik Tok Dancing Showdown * [Video]',
-		totalDownloads: '30',
+			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members playing and the highest score achieved by your team. At least the LAST 10 seconds of that game must be shown in the video. Highest score wins a bonus prize.',
+		media: '/static/images/gameplay/basketball.gif',
+		title: 'Hoop it in @ the Arcade * [Video]',
+		totalDownloads: '15',
 		zone: 'Generic'
 	},
 	{
@@ -85,20 +85,10 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Catch no ball? How about catching food? Take a video of EACH team member catching Ice Gem or any Fruits with their mouth!',
-		media: '/static/images/gameplay/crop-food-catch.gif',
-		title: 'Catch it with your mouth [Video]',
+			'Time to go hunt for any murals, graffiti or statues and submit your team photo (all members or excluding 1 member) with it! The most creative submission wins a bonus prize.',
+		media: '/static/images/gameplay/mural_statue.jpg',
+		title: 'Art is everywhere * [Photo]',
 		totalDownloads: '5',
-		zone: 'Generic'
-	},
-	{
-		id: uuid(),
-		createdAt: '04/04/2019',
-		description:
-			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members playing and the highest score achieved by your team. At least the LAST 10 seconds of that game must be shown in the video. Highest score wins a bonus prize.',
-		media: '/static/images/gameplay/basketball.gif',
-		title: 'Hoop it in @ the Arcade * [Video]',
-		totalDownloads: '15',
 		zone: 'Generic'
 	},
 	{
@@ -125,20 +115,30 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 330ml can (or larger) of beer empty in 15 seconds. The video must show the member opening the can and that it is empty after chugging.",
-		media: '/static/images/gameplay/beer-chug.gif',
-		title: 'Oktoberfest [Video]',
-		totalDownloads: '5',
+			'Film a team video review (vlog / tiktok) of an iconic landmark or activity unique to your zone! Stuck? Fret not, unique HDB blocks count too! Best submissions win a bonus prize.',
+		media: '/static/images/gameplay/tripadvisor_review.png',
+		title: 'Zone Travel Review * [Video]',
+		totalDownloads: '15',
 		zone: 'Generic'
 	},
 	{
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Time to go hunt for any murals, graffiti or statues and submit your team photo (all members or excluding 1 member) with it! The most creative submission wins a bonus prize.',
-		media: '/static/images/gameplay/mural_statue.jpg',
-		title: 'Art is everywhere * [Photo]',
+			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it!',
+		media: '/static/images/gameplay/postcard.jpg',
+		title: 'Traveling mementos: Postcards [Photo]',
 		totalDownloads: '5',
+		zone: 'Generic'
+	},
+	{
+		id: uuid(),
+		createdAt: '31/03/2019',
+		description:
+			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance. The most entertaining team gets a bonus prize.',
+		media: '/static/images/gameplay/tiktok-dance.jpg',
+		title: 'Tik Tok Dancing Showdown * [Video]',
+		totalDownloads: '30',
 		zone: 'Generic'
 	},
 	{
