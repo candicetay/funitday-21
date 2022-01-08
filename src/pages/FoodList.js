@@ -25,7 +25,7 @@ const FoodList = () => (
 					Celebrate Singapore&apos;s culinary heritage by feeding your
 					team with these treats!
 				</Typography>
-				<Typography color="textPrimary" variant="h6">
+				<Typography color="textSecondary" variant="h5">
 					Remember to take a team picture (team pax -1) with the treats!
 				</Typography>
 			</Box>
