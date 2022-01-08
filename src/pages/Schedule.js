@@ -42,14 +42,14 @@ const Schedule = () => (
 						<TimelineDot />
 						<TimelineConnector />
 					</TimelineSeparator>
-					<TimelineContent>11AM Leave office</TimelineContent>
+					<TimelineContent>10.30AM Leave office</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot />
 						<TimelineConnector />
 					</TimelineSeparator>
-					<TimelineContent>Release of Bingo Sheets!</TimelineContent>
+					<TimelineContent>OTOT Lunch</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineSeparator>
@@ -57,7 +57,7 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						OTOT Lunch &amp; Activities
+						12PM Release of Bingo Sheets
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
@@ -71,11 +71,20 @@ const Schedule = () => (
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineSeparator>
+						<TimelineDot />
+						<TimelineConnector />
+					</TimelineSeparator>
+					<TimelineContent>
+						4.15 PM (Zoom) Slide show of FUN IT Day 2021!
+					</TimelineContent>
+				</TimelineItem>
+				<TimelineItem>
+					<TimelineSeparator>
 						<TimelineDot color="warning" />
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						4.15 PM (Zoom) Closing Speech and Announcing of Top
+						4.30 PM (Zoom) Closing speech by SD/IT &amp; announcement of
 						Winners
 					</TimelineContent>
 				</TimelineItem>
@@ -83,7 +92,7 @@ const Schedule = () => (
 					<TimelineSeparator>
 						<TimelineDot color="success" />
 					</TimelineSeparator>
-					<TimelineContent> 5 PM Event Concludes</TimelineContent>
+					<TimelineContent> 5.15 PM Event Concludes</TimelineContent>
 				</TimelineItem>
 			</Timeline>
 		</Box>
