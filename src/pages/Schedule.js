@@ -42,14 +42,7 @@ const Schedule = () => (
 						<TimelineDot />
 						<TimelineConnector />
 					</TimelineSeparator>
-					<TimelineContent>10.30AM Leave office</TimelineContent>
-				</TimelineItem>
-				<TimelineItem>
-					<TimelineSeparator>
-						<TimelineDot />
-						<TimelineConnector />
-					</TimelineSeparator>
-					<TimelineContent>OTOT Lunch</TimelineContent>
+					<TimelineContent>10.30AM Leave office for lunch / brunch</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineSeparator>
@@ -75,7 +68,7 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						4.15 PM (Zoom) Slide show of FUN IT Day 2021!
+						4.15 PM (Zoom) Photo showcase of groups!
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
@@ -84,7 +77,7 @@ const Schedule = () => (
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
-						4.30 PM (Zoom) Closing speech by SD/IT &amp; announcement of
+						4.30 PM (Zoom) Closing &amp; announcement of
 						Winners
 					</TimelineContent>
 				</TimelineItem>
