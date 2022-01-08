@@ -105,7 +105,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Tea time! Submit a video of ANY team member pulling Teh Tarik from 1 cup to another! We want to see foam and a real pull (from a sufficient height)!',
+			'Tea time! Submit a video of ANY team member pulling Teh Tarik from 1 cup to another! Show us the foam and a real pull (from a sufficient height)!',
 		media: '/static/images/gameplay/tehtarik.jpg',
 		title: 'Teh Tarik Master [Video]',
 		totalDownloads: '5',
