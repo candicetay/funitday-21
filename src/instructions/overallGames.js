@@ -255,7 +255,7 @@ export default [
 		createdAt: '04/04/2019',
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		media: '/static/images/gameplay/east_jewel.jpg',
 		title: 'Jewel (Changi Airport MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'East'
@@ -265,7 +265,7 @@ export default [
 		createdAt: '04/04/2019',
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		media: '/static/images/gameplay/east_jurassicmile.jpg',
 		title: 'Jurassic Mile (Changi Airport MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'East'
@@ -275,7 +275,7 @@ export default [
 		createdAt: '04/04/2019',
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		media: '/static/images/gameplay/east_shophouse3.jpg',
 		title: 'Koon Seng Road Peranakan Shophouses (Eunos MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'East'
@@ -285,8 +285,8 @@ export default [
 		createdAt: '04/04/2019',
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
-		title: 'Botanic Gardens (Eunos MRT) [Photo]',
+		media: '/static/images/gameplay/central_botanicgardens.jpg',
+		title: 'Botanic Gardens (Orchard MRT or Botanic Gardens MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
 	},
@@ -296,7 +296,7 @@ export default [
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
 		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
-		title: 'Fort Canning Park (Eunos MRT) [Photo]',
+		title: 'Fort Canning Park (Fort Canning MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
 	},
@@ -306,7 +306,7 @@ export default [
 		description:
 			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
 		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
-		title: 'Central Fire Station (Eunos MRT) [Photo]',
+		title: 'Central Fire Station ( Clarke Quay MRT or City Hall MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
 	}
