@@ -214,7 +214,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Take a group shot (all members or excluding 1 member) here! Treat yourselves to the beautiful view at Lower Seletar Reservoir!',
+			'Take a group shot (all members or excluding 1 member) here! Ever noticed a mesmerising view while taking the train from Yio Chu Kang to Khatib? Yes, that is Lower Seletar Reservoir! Take a breather and enjoy the beautiful view at Lower Seletar Reservoir!',
 		media: '/static/images/gameplay/north_heritagebridge.jpg',
 		title: 'Heritage Bridge @ Lower Seletar Reservoir (Khatib MRT) [Photo]',
 		totalDownloads: '15',
@@ -249,5 +249,65 @@ export default [
 		title: 'Punggol East Container Park (Riviera LRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'North-East'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Jewel (Changi Airport MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'East'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Jurassic Mile (Changi Airport MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'East'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Koon Seng Road Peranakan Shophouses (Eunos MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'East'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Botanic Gardens (Eunos MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'Central'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Fort Canning Park (Eunos MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'Central'
+	},
+	{
+		id: uuid(),
+		createdAt: '04/04/2019',
+		description:
+			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+		title: 'Central Fire Station (Eunos MRT) [Photo]',
+		totalDownloads: '15',
+		zone: 'Central'
 	}
 ];
