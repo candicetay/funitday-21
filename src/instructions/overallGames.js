@@ -254,7 +254,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+			"Head down to take a team photo (all members or excluding 1 member) at Jewel! Did you know that Singapore houses the world's tallest indoor waterfall - HSBC Rain Vortex (40m) at Jewel! The architectural marvel also houses 2,000 trees and palms, the oldest being at least 100 years old! ",
 		media: '/static/images/gameplay/east_jewel.jpg',
 		title: 'Jewel (Changi Airport MRT) [Photo]',
 		totalDownloads: '15',
@@ -264,7 +264,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+			"Have fun with Singapore's largest permanent outdoor display of life-sized dinosaurs. Take a team photo (all members or excluding 1 member)with the dinosaurs or dinosaur eggs at Jurassic Mile!",
 		media: '/static/images/gameplay/east_jurassicmile.jpg',
 		title: 'Jurassic Mile (Changi Airport MRT) [Photo]',
 		totalDownloads: '15',
@@ -274,7 +274,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+			'Visit these iconic shophouses and take a team photo (all members or excluding 1 member) while appreciating the ceremic tile motifs! Did you know that Koon Seng road was once a Peranakan enclave until the 1970s? It is impossible to miss the beautiful multi-coloured shophouses with traditional Peranakan architecture.',
 		media: '/static/images/gameplay/east_shophouse3.jpg',
 		title: 'Koon Seng Road Peranakan Shophouses (Eunos MRT) [Photo]',
 		totalDownloads: '15',
@@ -284,7 +284,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
+			"Visit the Botanic Gardens and take a team photo (all members or excluding 1 member)! At 162 years old, Botanic Gardens is the first and only tropical gardens on the UNESCO's World Heritage List. The pioneering of rubber cultivation and tapping at Botanic Gardens also led to the rise of rubber plantations (cash crop) in Southeast Asia! Prior to this, rubber trees were only grown in Brazil!",
 		media: '/static/images/gameplay/central_botanicgardens.jpg',
 		title: 'Botanic Gardens (Orchard MRT or Botanic Gardens MRT) [Photo]',
 		totalDownloads: '15',
@@ -294,8 +294,8 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+			"Take a team photo (all members or excluding 1 member) at one of Singapore's most historic landmarks - Fort Canning Park! A reconstruction of Sir Stanford Raffles's personal residence and the decision to surrender Singapore to the Japanese are both at Fort Canning Park! Do check out the Sang Nila Utama Garden for a dose of Bali or the iconic spiral staircase!",
+		media: '/static/images/gameplay/central_fortcanning3.jpg',
 		title: 'Fort Canning Park (Fort Canning MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
@@ -304,8 +304,8 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Missing Thailand? Visit the Punggol Container Park and take a team photo (all members or excluding 1 member)! Its actual name is Social Entrepreneurship and Eco-park Development (SEED), an initiative by Social Innovation Park (SIP) to build a more inclusive and sustainable world. Each container bistro here carries a social mission and unique concept.',
-		media: '/static/images/gameplay/north_east_punggol_east_container_park.jpg',
+			"Central Fire Station, also known as Hill Street Fire Station, is Singapore's oldest surviving fire station. Take a team photo (all members or excluding 1 member) with the iconic Central Fire Station!",
+		media: '/static/images/gameplay/central-fire-station-02.png',
 		title: 'Central Fire Station ( Clarke Quay MRT or City Hall MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
