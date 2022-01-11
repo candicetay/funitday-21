@@ -45,7 +45,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Catch no ball? How about catching food? Take a video of EACH team member catching Ice Gem or any Fruits with their mouth!',
+			'Catch no ball? How about catching food? Take a video of EACH team member catching Ice Gem, Dried Fruits, Fruits or any Nuts with their mouth!',
 		media: '/static/images/gameplay/crop-food-catch.gif',
 		title: 'Catch it with your mouth [Video]',
 		totalDownloads: '5',
