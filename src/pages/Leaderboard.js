@@ -34,7 +34,7 @@ const Leaderboard = () => (
 			>
 				<IframeResizer
 					log
-					src="https://keepthescore.co/embed/pyxeqxrxgnr/"
+					src="https://keepthescore.co/board/kqdwxvxiyyr/"
 					style={{ width: '1px', minWidth: '100%', height: '4000px' }}
 				/>
 			</Box>
