@@ -284,7 +284,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Visit the iconic Fountain of Wealth for a great year of HUAT and take a team photo (all members or excluding 1 member)! Did you know that the Fountain of Wealth is listed by the Guinness Book of Records in 1998 as the largest fountain in the world!",
+			'Visit the iconic Fountain of Wealth for a great year of HUAT and take a team photo (all members or excluding 1 member)! Did you know that the Fountain of Wealth is listed by the Guinness Book of Records in 1998 as the largest fountain in the world!',
 		media: '/static/images/gameplay/central_fountainofwealth.png',
 		title: 'Fountain of Wealth (Promenade MRT) [Photo]',
 		totalDownloads: '15',
