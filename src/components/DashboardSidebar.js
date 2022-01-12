@@ -160,7 +160,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
 					<Button
 						color="primary"
 						component="a"
-						href="https://keepthescore.co/board/pyxeqxrxgnr/"
+						href="https://keepthescore.co/board/kqdwxvxiyyr/"
 						variant="contained"
 					>
 						Leaderboard URL
