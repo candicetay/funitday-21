@@ -68,7 +68,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Submit pictorial evidence of anyone in the team eating Potong Ice Cream or hunt for the ice-cream man uncle for an additional 5 points!',
+			'Submit pictorial evidence of anyone in the team eating Potong Ice Cream or hunt for the ice-cream man uncle for an additional 5 points! Alternative submissions of posing with potong ice cream without eating is allowed.',
 		media: '/static/images/food/icecream.png',
 		title: 'Heritage Ice Cream',
 		totalDownloads: '5'

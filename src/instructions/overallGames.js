@@ -25,7 +25,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"It's been really hot, time for a cooling spray! Submit video evidence of water being sprayed at EACH of your team member's FACE.",
+			"It's been really hot, time for a cooling spray! Submit video evidence of water being sprayed at EACH of your team member's FACE. DO NOT film in public toilets, that's illegal.",
 		media: '/static/images/gameplay/songkran.jpg',
 		title: 'Songkran Singapore Style [Video]',
 		totalDownloads: '10',
@@ -35,7 +35,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 330ml can (or larger) of beer empty in 15 seconds. The video must show the member opening the can and that it is empty after chugging.",
+			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 300ml can (or larger) of beer empty in 30 seconds. Non-alcoholic can drinks are also accepted but they must be gassy. The video must show the member opening the can and that it is empty after chugging. We accept  as alternatives but it must be gassy.",
 		media: '/static/images/gameplay/beer-chug.gif',
 		title: 'Oktoberfest [Video]',
 		totalDownloads: '5',
@@ -55,7 +55,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members playing and the highest score achieved by your team. At least the LAST 10 seconds of that game must be shown in the video. Highest score wins a bonus prize.',
+			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members trying out creative basketball shots while playing. Make sure the ball goes into the hoop and film at least 10 seconds of game play. Most creative score wins a bonus prize.',
 		media: '/static/images/gameplay/basketball.gif',
 		title: 'Hoop it in @ the Arcade * [Video]',
 		totalDownloads: '15',
@@ -135,7 +135,7 @@ export default [
 		id: uuid(),
 		createdAt: '31/03/2019',
 		description:
-			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance. The most entertaining team gets a bonus prize.',
+			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance with music audible. The most entertaining team gets a bonus prize. Groups do not need to create a Tik Tok account nor do they need to post on Tik Tok.',
 		media: '/static/images/gameplay/tiktok-dance.jpg',
 		title: 'Tik Tok Dancing Showdown * [Video]',
 		totalDownloads: '30',
@@ -264,9 +264,9 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Have fun with Singapore's largest permanent outdoor display of life-sized dinosaurs. Take a team photo (all members or excluding 1 member)with the dinosaurs or dinosaur eggs at Jurassic Mile!",
-		media: '/static/images/gameplay/east_jurassicmile.jpg',
-		title: 'Jurassic Mile (Changi Airport MRT) [Photo]',
+			"Did you know that some of Jackie Chan's personal antique collection can be found in Singapore? Take a team photo (all members or excluding 1 member) with the SUTD Jackie Chan Pavilion in the visible background!",
+		media: '/static/images/gameplay/east_sutd_jackiechan.jpg',
+		title: 'SUTD Jackie Chan Pavilion (Expo MRT or Upper Changi MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'East'
 	},
@@ -284,9 +284,9 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Visit the Botanic Gardens and take a team photo (all members or excluding 1 member)! At 162 years old, Botanic Gardens is the first and only tropical gardens on the UNESCO's World Heritage List. The pioneering of rubber cultivation and tapping at Botanic Gardens also led to the rise of rubber plantations (cash crop) in Southeast Asia! Prior to this, rubber trees were only grown in Brazil!",
-		media: '/static/images/gameplay/central_botanicgardens.jpg',
-		title: 'Botanic Gardens (Orchard MRT or Botanic Gardens MRT) [Photo]',
+			"Visit the iconic Fountain of Wealth for a great year of HUAT and take a team photo (all members or excluding 1 member)! Did you know that the Fountain of Wealth is listed by the Guinness Book of Records in 1998 as the largest fountain in the world!",
+		media: '/static/images/gameplay/central_fountainofwealth.png',
+		title: 'Fountain of Wealth (Promenade MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
 	},
@@ -294,7 +294,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Take a team photo (all members or excluding 1 member) at one of Singapore's most historic landmarks - Fort Canning Park! A reconstruction of Sir Stanford Raffles's personal residence and the decision to surrender Singapore to the Japanese are both at Fort Canning Park! Do check out the Sang Nila Utama Garden for a dose of Bali or the iconic spiral staircase!",
+			"Take a team photo (all members or excluding 1 member) at one of Singapore's most historic landmarks - Fort Canning Park! The photo must be taken at any landmark that can be found on Google Maps. Team photos with signages will not be accepted. A reconstruction of Sir Stanford Raffles's personal residence and the decision to surrender Singapore to the Japanese are both at Fort Canning Park! Do check out the Sang Nila Utama Garden for a dose of Bali or the iconic spiral staircase!",
 		media: '/static/images/gameplay/central_fortcanning3.jpg',
 		title: 'Fort Canning Park (Fort Canning MRT) [Photo]',
 		totalDownloads: '15',
@@ -304,9 +304,9 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Central Fire Station, also known as Hill Street Fire Station, is Singapore's oldest surviving fire station. Take a team photo (all members or excluding 1 member) with the iconic Central Fire Station!",
-		media: '/static/images/gameplay/central-fire-station-02.png',
-		title: 'Central Fire Station ( Clarke Quay MRT or City Hall MRT) [Photo]',
+			"Take a team photo (all members or excluding 1 member) with the iconic USS Rotating Globe! Did you know that USS is Southeast Asia's first and only Universal Studios theme park!",
+		media: '/static/images/gameplay/central_uss_globe.jpg',
+		title: 'Universal Studios Singapore Rotating Globe (Harbourfont MRT) [Photo]',
 		totalDownloads: '15',
 		zone: 'Central'
 	}
