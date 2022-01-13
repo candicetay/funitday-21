@@ -35,7 +35,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 300ml can (or larger) of beer empty in 30 seconds. Non-alcoholic can drinks are also accepted but they must be gassy. The video must show the member opening the can and that it is empty after chugging. We accept  as alternatives but it must be gassy.",
+			"Couldn't travel to Germany last October? We have IT's own Oktoberfest! Film ANY team member chug a 300ml can (or larger) of beer empty in 30 seconds. Non-alcoholic can drinks are also accepted but they must be gassy. The video must show the member opening the can and that it is empty after chugging.",
 		media: '/static/images/gameplay/beer-chug.gif',
 		title: 'Oktoberfest [Video]',
 		totalDownloads: '5',
