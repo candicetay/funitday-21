@@ -55,7 +55,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members trying out creative basketball shots while playing. Make sure the ball goes into the hoop and film at least 10 seconds of game play. Most creative score wins a bonus prize.',
+			'Slam Dunk! Play a game of Basketball at any arcade! Submit a video of your team members trying out creative basketball shots while playing. Make sure the ball goes into the hoop and film at least 10 seconds of game play. Most creative shot wins a bonus prize.',
 		media: '/static/images/gameplay/basketball.gif',
 		title: 'Hoop it in @ the Arcade * [Video]',
 		totalDownloads: '15',
