@@ -95,7 +95,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Submit a video of your team (all members or excluding 1 member) reviewing soft boiled eggs without talking! No mouthing of words too :P',
+			'Submit a video of your team (all members or excluding 1 member) reviewing soft boiled eggs without talking for at least 10 seconds! No mouthing of words too :P',
 		media: '/static/images/gameplay/notalk_eggreview.jpeg',
 		title: 'Mime food review x Eggs [Video]',
 		totalDownloads: '15',
