@@ -115,7 +115,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Film a team video review (vlog / tiktok) of an iconic landmark or activity unique to your zone! Stuck? Fret not, unique HDB blocks count too! Best submissions win a bonus prize.',
+			'Film a team video review (vlog / tiktok) of an iconic landmark or activity unique to your zone for at least 30 seconds! Stuck? Fret not, unique HDB blocks count too! Best submissions win a bonus prize.',
 		media: '/static/images/gameplay/tripadvisor_review.png',
 		title: 'Zone Travel Review * [Video]',
 		totalDownloads: '15',
