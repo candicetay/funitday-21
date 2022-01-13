@@ -164,7 +164,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Take a group photo (all members or excluding 1 member) at Jurong Lake Gardens! Jurong Lake Gardens spans a 90-hectare space and is the third and newest of Singapore's national gardens. Visit iconic spots such as the Lone Tree, Grass mounds and Grasslands!",
+			"Take a group photo (all members or excluding 1 member) at Jurong Lake Gardens! The photo must be taken at any landmark that can be found on Google Maps. Team photos with signages will not be accepted. Jurong Lake Gardens spans a 90-hectare space and is the third and newest of Singapore's national gardens. Visit iconic spots such as the Lone Tree, Grass mounds and Grasslands!",
 		media: '/static/images/gameplay/west_juronglakegarden2.jpg',
 		title: 'Jurong Lake Garden (Lakeside MRT) [Photo]',
 		totalDownloads: '15',
@@ -264,7 +264,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"Did you know that some of Jackie Chan's personal antique collection can be found in Singapore? Take a team photo (all members or excluding 1 member) with the SUTD Jackie Chan Pavilion in the visible background!",
+			"Did you know that some of Jackie Chan's personal antique collection can be found in Singapore? Take a team photo (all members or excluding 1 member) with any of the 4 SUTD Jackie Chan Pavilion in the visible background!",
 		media: '/static/images/gameplay/east_sutd_jackiechan.jpg',
 		title: 'SUTD Jackie Chan Pavilion (Expo MRT or Upper Changi MRT) [Photo]',
 		totalDownloads: '15',
