@@ -25,7 +25,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			"It's been really hot, time for a cooling spray! Submit video evidence of water being sprayed at EACH of your team member's FACE. DO NOT film in public toilets, that's illegal.",
+			"It's been really hot, time for a cooling spray! Submit video evidence of water being sprayed at EACH of your team member's FACE. You are not allowed to splash your own face with water. DO NOT film in public toilets, that's illegal.",
 		media: '/static/images/gameplay/songkran.jpg',
 		title: 'Songkran Singapore Style [Video]',
 		totalDownloads: '10',
@@ -125,7 +125,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it!',
+			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it! A paid stamp must be visible and we recommend covering the address.',
 		media: '/static/images/gameplay/postcard.jpg',
 		title: 'Traveling mementos: Postcards [Photo]',
 		totalDownloads: '5',
