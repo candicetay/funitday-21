@@ -135,7 +135,7 @@ export default [
 		id: uuid(),
 		createdAt: '31/03/2019',
 		description:
-			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance with music audible. The most entertaining team gets a bonus prize. Groups do not need to create a Tik Tok account nor do they need to post on Tik Tok.',
+			'Submit a video of your team (all members or excluding 1 member) doing any Tik Tok dance with music audible, for at least 15 seconds. The most entertaining team gets a bonus prize. Groups do not need to create a Tik Tok account nor do they need to post on Tik Tok.',
 		media: '/static/images/gameplay/tiktok-dance.jpg',
 		title: 'Tik Tok Dancing Showdown * [Video]',
 		totalDownloads: '30',
