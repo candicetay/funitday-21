@@ -125,7 +125,7 @@ export default [
 		id: uuid(),
 		createdAt: '04/04/2019',
 		description:
-			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it! A paid stamp must be visible and we recommend covering the address.',
+			'Miss travelling? Submit photo proof of a creative postcard written by ANY team member to a friend or family and post it! A paid stamp must be visible and we recommend covering the address. Please submit a supplementary video to prove that it has been posted.',
 		media: '/static/images/gameplay/postcard.jpg',
 		title: 'Traveling mementos: Postcards [Photo]',
 		totalDownloads: '5',
