@@ -21,7 +21,7 @@ export default [
 		id: uuid(),
 		createdAt: '03/04/2019',
 		description:
-			"(1) Submit video or pictorial evidence for food and activities via the telegram chat with our committee members! Refer to the specific instructions for each activity. (2) Cross out completed tiles on your team's bingo sheet so the committee can award bonus points for completed rows and columns! Do note, we will take some time to verify submissions!",
+			"(1) Submit video or pictorial evidence for food and activities via the telegram chat with our committee members! Refer to the specific instructions for each activity. (2) Cross out completed tiles on your team's bingo sheet so the committee can award bonus points for completed rows and columns! (3) Do not use the same submission for more than 1 bingo activity. Do note, we will take some time to verify submissions!",
 		title: 'Proof of Completion and Verification',
 		media: '/static/images/gameplay/selfie-pose.jpg'
 	},
