@@ -4,7 +4,7 @@
 > This website is made possible by [![Material Kit - React](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-free-xl.jpg)](https://react-material-dashboard.devias.io/) and Vercel.
 
 ## About the Info Site
-This website was created to facilitate a virtual mass team bonding company event, with this information site meant to accompany a digital [Bingo sheet](bingobaker.com). Minor modifications were done to the components from the original React template for this site.
+This website was created to facilitate a physical decentralised mass team bonding company event, with this information site meant to accompany a digital [Bingo sheet](bingobaker.com). Minor modifications were done to the components from the original React template for this site.
 
 #### Note:
 - All images (except Publicity posters) and gifs on the site are sourced from Google Images and belong to the respective content creators. No attempt was made to monetise them.
