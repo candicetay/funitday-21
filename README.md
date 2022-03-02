@@ -1,53 +1,35 @@
-## [Material Kit - React](https://material-kit-react.devias.io/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=%F0%9F%9A%A8Devias%20Freebie%20Alert%20-%20An%20awesome%20ready-to-use%20register%20page%20made%20with%20%23material%20%23react%0D%0Ahttps%3A%2F%2Fdevias.io%20%23createreactapp%20%23devias%20%23material%20%23freebie%20%40devias-io)
-
+## FUN IT Day 2021 Info Site
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-[![Material Kit - React](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-free-xl.jpg)](https://react-material-dashboard.devias.io/)
+> This website is made possible by [![Material Kit - React](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-free-xl.jpg)](https://react-material-dashboard.devias.io/) and Vercel.
 
-> Free React Admin Dashboard made with [Material UI's](https://material-ui.com/?ref=devias-io) components, [React](https://reactjs.org/?ref=devias-io) and of course [create-react-app](https://facebook.github.io/create-react-app/?ref=devias-io) to boost your app development process! We'll launch a pro version soon, so if you are interested subscribe to our personal emailing list on [https://devias.io/](https://devias.io/)
+## About the Info Site
+This website was created to facilitate a virtual mass team bonding company event, with this information site meant to accompany a digital [Bingo sheet](bingobaker.com). Minor modifications were done to the components from the original React template for this site.
 
-## Upgrade to PRO Version
+#### Note:
+- All images (except Publicity posters) and gifs on the site are sourced from Google Images and belong to the respective content creators. No attempt was made to monetise them.
+- All textual data is hard coded in json with no database reference due to the limited data.
 
-We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts :)
+## Pages on Site
 
-
-| Free Version (this one)              | [Material Kit Pro - React](https://material-ui.com/store/items/devias-kit-pro/) |
-| ------------------------ | :----------------------------------------------------------- |
-| **7** Demo Pages         | **32** demo pages
-| -                        | ✔ Dark & light mode
-| -                        | ✔ Authentication with *Amplify**, **Auth0** and **Firebase**  
-| -                        | ✔ TypeScript version                                                                                   
-| -                        | ✔ Design files (sketch & figma) - for extended license       
-| -                        | ✔ Complete users flows                                       
-
-## Demo
-
-- [Dashboard Page](https://material-kit-react.devias.io/app/dashboard)
-- [Users Page](https://material-kit-react.devias.io/app/customers)
-- [Products Page](https://material-kit-react.devias.io/app/products)
-- [Register Page](https://material-kit-react.devias.io/register)
-- [Login Page](https://material-kit-react.devias.io/login)
-- [Account Page](https://material-kit-react.devias.io/app/account)
-- [Settings Page](https://material-kit-react.devias.io/app/settings)
-
+- [Schedule](https://funitday-21.vercel.app/app/schedule)
+- [Instructions & FAQ](https://funitday-21.vercel.app/app/instructions)
+- [Bingo - Snacks](https://funitday-21.vercel.app/app/eat)
+- [Bingo - Activities](https://funitday-21.vercel.app/app/gameplay)
+- [Leaderboard](https://funitday-21.vercel.app/app/leaderboard)
+- [Comms](https://funitday-21.vercel.app/app/publicity)
 
 ## Quick start
 
-- [Download from Github](https://github.com/devias-io/material-kit-react/archive/master.zip) or [Download from Devias](https://devias.io/products/material-kit-react) or clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
+- Download the project
 
-- Make sure your NodeJS and npm versions are up to date for `React 17`
+- Make sure your NodeJS and npm versions are up to date for `React 17`. npm and yarn versions are explicitly stated in package.json for deployment on Vercel.
 
 - Install dependencies: `npm install` or `yarn`
 
 - Start the server: `npm run start` or `yarn start`
 
 - Views are on: `localhost:3000`
-
-## 🖌 Design Files
-
-👉[Download Sketch file](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-dashboard-free.sketch)
-
-👉[Download Figma file](https://devias.s3.eu-west-2.amazonaws.com/products/react-material-dashboard/react-material-dashboard-free.fig)
 
 ## File Structure
 
@@ -65,44 +47,29 @@ material-react-dashboard
 ├── package.json
 ├── README.md
 ├── public
-├── docs
+	├── static
+	├── images
+		├── food
+		├── gameplay
+		├── publicity
+		├── FUN-IT logo
 └── src
-	├── assets
-	├── common
 	├── components
-	├── helpers
-	├── icons
-	├── layouts
+	├── instructions
+	├── utils
 	├── theme
-	├── views
-	│	├── Account
-	│	├── Dashboard
-	│	├── Icons
+	├── pages
+	│	├── EmailComms
+	│	├── FoodList
+	│	├── GamePlay
+	│	├── Instructions
+	│	├── Leaderboard
 	│	├── NotFound
-	│	├── ProductList
-	│	├── Settings
-	│	├── SignIn
-	│	├── SignUp
-	│	├── Typography
-	│	└── UserList
+	│	├── Schedule
 	├── App.jsx
 	├── index.jsx
 	└── Routes.jsx
 ```
-
-## Resources
-
-- More freebies like this one: <https://devias.io>
-
-## Reporting Issues:
-
-- [Github Issues Page](https://github.com/devias-io/react-material-dashboard/issues?ref=devias-io)
-
 ## License
 
 - Licensed under MIT (https://github.com/devias-io/react-material-dashboard/blob/master/LICENSE.md)
-
-## Contact Us
-
-- Email Us: support@deviasio.zendesk.com
-- [Follow us on Instagram](https://www.instagram.com/deviasio/)
